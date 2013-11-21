@@ -6,15 +6,19 @@ gem 'rails', '4.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+group :assets do
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+	gem 'sass-rails', '~> 4.0.0'
 
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+	# Use Uglifier as compressor for JavaScript assets
+	gem 'uglifier', '>= 1.3.0'
 
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+	# Use CoffeeScript for .js.coffee assets and views
+	gem 'coffee-rails', '~> 4.0.0'
+	gem 'twitter-bootstrap-rails'
 
+
+end
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -44,7 +48,6 @@ end
 gem 'simple_form'
 gem 'devise'
 
-gem 'twitter-bootstrap-rails'
 
 gem 'lyricfy'
 gem 'ruby-mp3info'
